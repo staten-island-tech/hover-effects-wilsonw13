@@ -28,10 +28,13 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  background-color: #ff3700;
 }
 
 .btn-red {
   background-color: #ff3700;
+  -webkit-transition: all;
+  transition: all;
   color: #fff;
 }
 
@@ -65,6 +68,15 @@ body {
   -webkit-transform: scale(1.5, 1.6);
           transform: scale(1.5, 1.6);
   opacity: 0;
+}
+
+.btn:active {
+  -webkit-transform: translate(0px, -1px);
+          transform: translate(0px, -1px);
+  -webkit-transform: scale(1.5, 1.6);
+          transform: scale(1.5, 1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .container {

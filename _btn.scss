@@ -11,10 +11,12 @@
   border-radius: 5rem;
   transition: all 0.3s;
   position: relative;
+  background-color: color(red);
 }
 
 .btn-red {
   background-color: color(red);
+  transition: all;
   color: #fff;
 }
 .btn-red:after {
@@ -40,4 +42,9 @@
 .btn:hover::after {
   transform: scale(1.5, 1.6);
   opacity: 0;
+}
+.btn:active {
+  transform: translate(0px, -1px);
+  transform: scale(1.5, 1.6);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
