@@ -3,6 +3,7 @@
 @import "_sunset.scss";
 @import "_text-effect.scss";
 @import "_animals.scss";
+@import "_explore.scss";
 
 .container {
   width: 80vw;
@@ -17,5 +18,5 @@
 }
 
 .container * {
-  margin: 1.2rem auto;
+  margin: 1rem auto;
 }

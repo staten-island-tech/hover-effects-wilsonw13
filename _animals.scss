@@ -14,10 +14,19 @@
   position: absolute;
   height: 20rem;
   box-shadow: 0 1.5rem 1 rem rgba(0, 0, 0, 0.4);
+  outline-offset: 1rem;
   transition: all 0.3s;
 }
 .animal:hover {
   transform: scale(1.3);
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.4);
+  outline: 1rem solid color(blue);
+  z-index: 2;
+}
+.animal-gallery:hover .animal:not(:hover) {
+  transform: scale(80%);
+  opacity: 0.3;
+  filter: grayscale(50%);
 }
 .zebra {
   top: 0rem;
