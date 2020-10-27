@@ -1,5 +1,8 @@
 @import "_variables.scss";
 @import "_btn.scss";
+@import "_sunset.scss";
+@import "_text-effect.scss";
+@import "_animals.scss";
 
 .container {
   width: 80vw;
@@ -11,4 +14,8 @@
   font-size: 1.5rem;
   align-items: center;
   text-align: center;
+}
+
+.container * {
+  margin: 1.2rem auto;
 }
