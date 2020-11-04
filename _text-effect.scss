@@ -5,10 +5,10 @@
   color: transparent;
   font-size: 8rem;
   -webkit-background-clip: text;
-  transition: all 0.3s;
+  transition: all 2s;
 }
 .text-effect:hover {
-  transform: skew(0deg, -10deg) scale(1.1);
+  transform: skew(0deg, -10deg) rotate(-720deg);
   font-size: 12rem;
   letter-spacing: 2rem;
 }

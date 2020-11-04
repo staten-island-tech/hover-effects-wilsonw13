@@ -5,6 +5,6 @@
   border-radius: 50%;
 }
 .sunset:hover {
-  filter: brightness(115%);
+  filter: brightness(110%) hue-rotate(180deg);
   transform: scale(1.2);
 }
