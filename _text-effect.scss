@@ -8,7 +8,7 @@
   transition: all 0.3s;
 }
 .text-effect:hover {
-  transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg) scale(1.1);
   font-size: 12rem;
   letter-spacing: 2rem;
 }
