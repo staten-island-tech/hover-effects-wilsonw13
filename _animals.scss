@@ -23,12 +23,6 @@
   outline: 1rem solid color(blue);
   z-index: 2;
 }
-.animal-gallery:hover .animal:not(:hover) {
-  transform: scale(0.8);
-  opacity: 0.3;
-  filter: grayscale(50%) blur(0.3rem);
-  border-radius: 50%;
-}
 .zebra {
   top: 0rem;
   left: 15%;
